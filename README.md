@@ -18,11 +18,11 @@ What do I need to run this?
 This code was used to prototype and test IMU tracking before we built C++ code 
 in the latest version of OpenSim (4.1 at the time). There are functions and classes 
 here that are not available in OpenSim 4.0 so you will have to either (i) wait 
-for the 4.1 beta to be released or you can build the [OpenSim](https://github.com/opensim-org/opensim-core); from source.    
+for the 4.1 beta to be released or (ii) build [OpenSim](https://github.com/opensim-org/opensim-core).    
 
 Why should I care?
 -----------------
-You don't need to really. The functions and methods found in this repo have been rolled into OpenSim already and you may find it easier to just use those tools as is. For me personally, going through the process of building an IMU tracking algorithm from the most basic OpenSim components was useful-- by sharing that code, others may be also find it useful.
+You don't need to really. The functions and methods found in this repo have been rolled into OpenSim already and you may find it easier to just use those tools as is. For me personally, going through the process of building an IMU tracking algorithm, from the most basic OpenSim components, was useful-- by sharing that code, others may also find it useful.
 
 Feel free to make comments or suggestions in the Github Issues tab above.
 
