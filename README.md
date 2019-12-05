@@ -2,7 +2,7 @@ opensimIMUTracking
 ============
 Matlab code that was used to prototype, test, and develop the latest IMU tracking methods in OpenSim 4.1.
 
-Whos is this for?
+Who is this for?
 -----------------
 This is example code for advanced users of OpenSim who have a pretty decent understanding of the OpenSim and Simbody API and who feel confident with Matlab. 
 
@@ -29,6 +29,12 @@ Feel free to make comments or suggestions in the Github Issues tab above. I
 Getting Started
 -----------------
 As suggested, you need at least the current OpenSim (if building locally) or the downloadable OpenSim 4.1 distribution. The code was written using Matlab 2018b. To setup your OpenSim-Matlab environment, you can follow the instructions found [here](https://simtk-confluence.stanford.edu/display/OpenSim/Scripting+with+Matlab).
+
+You can convert Xsens IMU data using the transform_imu_data_to_sto.m script. 
+
+You can track the data with an OpenSim model using the run_IMU_inverse_kinematics.m.
+
+Almost all the methods are in the orientationTracker.m class. 
 
 
 See ya space cowboy
