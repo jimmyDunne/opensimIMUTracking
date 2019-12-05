@@ -24,7 +24,7 @@ Why should I care?
 -----------------
 You don't need to really. The functions and methods found in this repo have been rolled into OpenSim already and you may find it easier to just use those tools as is. For me personally, going through the process of building an IMU tracking algorithm from the most basic OpenSim components was useful-- by sharing that code, others may be also find it useful.
 
-Feel free to make comments or suggestions in the Github Issues tab above. I 
+Feel free to make comments or suggestions in the Github Issues tab above.
 
 Getting Started
 -----------------
