@@ -1,0 +1,12 @@
+# Ignore files
+
+# matlab
+*.m~
+
+# Ignore log files from OpenSim crashing
+*.log
+*.out
+
+# MAC File System files
+.DS_Store
+
