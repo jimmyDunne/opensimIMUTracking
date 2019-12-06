@@ -353,7 +353,6 @@ classdef orientationTracker < matlab.mixin.SetGet
                 end
                 errorTable.appendRow(time,rowVec)
                 
-                
                 % Realize to the report stage
                 model.realizeReport(s0);
             end
@@ -392,7 +391,6 @@ classdef orientationTracker < matlab.mixin.SetGet
                     otable.removeColumn(labels.get(i));
                 end
             end
-            
             % Store the orientationRefs
             self.oRefs = OrientationsReference(otable);
             disp('New Orientations Reference Set');
